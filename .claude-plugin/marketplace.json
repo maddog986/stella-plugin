@@ -2,7 +2,7 @@
   "name": "stella-plugin",
   "owner": {
     "name": "Drew Gauderman",
-    "email": "drew@imstella.ai"
+    "email": "drew@dpg.host"
   },
   "metadata": {
     "description": "Stella — AI knowledge partner with persistent memory across every Claude surface"
