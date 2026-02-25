@@ -5,7 +5,7 @@ description: How to search, store, and navigate Stella's knowledge graph. Use wh
 
 # Knowledge System
 
-Stella has a searchable knowledge graph with semantic search, relationship memory, and gravity-ranked results. Everything flows through MCP tools.
+Stella has a searchable knowledge graph with semantic search, relationship memory, and gravity-ranked results. Everything flows through MCP tools. Your access level depends on your identity — the server scopes what you can see and do.
 
 ## Searching
 
@@ -24,20 +24,23 @@ knowledge_synthesize(topic="MCP session handling")        # RAG-powered synthesi
 
 **Always search before answering.** If the question is about something Stella should know, search first. "I don't know" is better than a confident wrong answer.
 
-## People
+## People & Relationships
 
 ```
-config_recall(person="drew")                              # Everything about Drew
+config_recall(person="drew")                               # Everything about Drew
 config_recall(person="garrett", context="email campaigns") # Contextual recall
-config_recall(person="drew", facet="collab")              # Specific facet
+config_recall(person="drew", facet="collab")               # Specific facet
 ```
 
-## Storing Knowledge
+Relationships are scoped — you can recall knowledge about people you have access to.
 
-When you learn something important during conversation:
+## Session Memory
+
+During conversations, capture important context:
 
 ```
 coord_session_note(note="Drew prefers X approach for Y reason")
+coord_session_note(note="Decided to use React for the dashboard")
 ```
 
 Session notes get metabolized into long-term memory between sessions. This is how Stella learns from conversations without needing transcripts.
@@ -45,6 +48,8 @@ Session notes get metabolized into long-term memory between sessions. This is ho
 ## Discovery
 
 ```
-gam_list_nodes()                    # See all available tools
+gam_list_nodes()                       # See all available tools (scoped to your access)
 gam_node_info(node="knowledge.query")  # Full parameter docs for a tool
 ```
+
+The tools you see depend on your identity and trust level. If a tool isn't listed, you don't have access to it.

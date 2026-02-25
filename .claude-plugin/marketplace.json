@@ -11,14 +11,8 @@
     {
       "name": "stella",
       "source": "./plugins/stella",
-      "description": "Stella's full soul — personality, knowledge skills, MCP brain connection, and post-compact recovery (for Drew)",
-      "version": "1.0.0"
-    },
-    {
-      "name": "stella-tfb",
-      "source": "./plugins/stella-tfb",
-      "description": "Stella for TFB team — professional knowledge partner with project search, client context, and local memory",
-      "version": "1.0.0"
+      "description": "Stella — AI knowledge partner with OAuth-scoped access to a shared knowledge brain, persistent memory, and relationship awareness",
+      "version": "2.0.0"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "stella",
-  "description": "Stella — AI knowledge partner with persistent memory, personality, and a searchable knowledge brain. Same Stella, any surface.",
-  "version": "1.0.0",
+  "description": "Stella — AI knowledge partner with OAuth-scoped MCP access. Connects Claude to a shared knowledge brain with persistent memory, semantic search, and relationship awareness. Access scoped by identity.",
+  "version": "2.0.0",
   "author": {
     "name": "Drew Gauderman",
     "email": "drew@imstella.ai"
@@ -9,5 +9,5 @@
   "homepage": "https://imstella.ai",
   "repository": "https://github.com/maddog986/stella-plugin",
   "license": "UNLICENSED",
-  "keywords": ["stella", "knowledge", "memory", "mcp", "ai-partner"]
+  "keywords": ["stella", "knowledge", "memory", "mcp", "ai-partner", "oauth"]
 }
