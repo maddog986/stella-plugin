@@ -1,0 +1,18 @@
+{
+  "name": "stella-plugin",
+  "owner": {
+    "name": "Drew Gauderman",
+    "email": "drew@imstella.ai"
+  },
+  "metadata": {
+    "description": "Stella — AI knowledge partner with persistent memory across every Claude surface"
+  },
+  "plugins": [
+    {
+      "name": "stella",
+      "source": ".",
+      "description": "Stella's soul — personality, knowledge skills, MCP brain connection, and post-compact recovery",
+      "version": "1.0.0"
+    }
+  ]
+}
