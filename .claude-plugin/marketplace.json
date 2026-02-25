@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "stella",
-      "source": ".",
+      "source": "./plugins/stella",
       "description": "Stella's soul — personality, knowledge skills, MCP brain connection, and post-compact recovery",
       "version": "1.0.0"
     }
