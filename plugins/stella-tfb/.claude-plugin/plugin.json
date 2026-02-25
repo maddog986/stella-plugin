@@ -1,0 +1,9 @@
+{
+  "name": "stella-tfb",
+  "description": "Stella for TFB team — knowledge search, project context, and analytics reporting",
+  "version": "1.0.0",
+  "author": {
+    "name": "Drew Gauderman"
+  },
+  "keywords": ["stella", "tfb", "knowledge", "analytics"]
+}
